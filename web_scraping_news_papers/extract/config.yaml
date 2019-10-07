@@ -1,0 +1,13 @@
+news_sites:
+  elpais:
+    url: https://elpais.com.co
+    queries:
+      homepage_article_links: '.title a'
+      article_body: '.paragraph'
+      article_title: '.article-title'
+  eltiempo:
+    url: https://www.eltiempo.com/
+    queries:
+      homepage_article_links: '.title-container a'
+      article_body: '.modulos'
+      article_title: '.titulo'
